@@ -1,0 +1,63 @@
+:root {
+    --background: rgb(32, 45, 49);
+    --background-nav: #313E7C;
+    --white: #F0F3FF;
+    --link-text: #5168CF;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--background);
+}
+
+.main-body {
+    margin: 1rem auto;
+    width: 50%;
+    min-width: 850px;
+    background-color: white;
+}
+
+nav {
+    background-color: var(--background-nav);
+}
+
+.nav-title {
+    padding-left: 2rem;
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.downloads-page {
+    padding-left: 2rem;
+}
+
+.downloads-page-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.downloads {
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+}
+
+.download-link {
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+a {
+    /* color: inherit; default color for links */
+    color: var(--link-text);
+    text-decoration: none; /* no underline */
+    font-weight: none;
+}
+
+.download-description {
+    list-style: none;
+}
